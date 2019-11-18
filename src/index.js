@@ -6,5 +6,5 @@ import './styles/app.css';
 app({
     init: state,
     view,
-    node: document.body,
+    node: document.getElementById('app'),
 });
