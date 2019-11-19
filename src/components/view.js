@@ -4,7 +4,7 @@ import Counter from './counter';
 import actions from '../actions';
 
 export default (state) =>
-    <div onload={actions.startup}>
+    <div>
         <Description />
         <Counter num={state.num} add={actions.add} sub={actions.sub} />
     </div>;
