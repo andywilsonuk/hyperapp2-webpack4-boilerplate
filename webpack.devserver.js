@@ -9,7 +9,7 @@ const baseMerge = merge(dev, {
         hot: true,
         publicPath: '/',
         contentBase: Path.join(__dirname, 'dist'),
-        port: 8080,
+        port: 8081,
     },
 });
 
